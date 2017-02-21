@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: teste-aspnet-beta
+  host: teste-aspnet-beta
+  disk_quota: 1024M
+  services:
+  - teste-aspnet-beta-cloudantNoSQLDB
